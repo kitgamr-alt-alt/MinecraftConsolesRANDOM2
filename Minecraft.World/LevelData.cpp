@@ -2,6 +2,7 @@
 #include "System.h"
 #include "net.minecraft.world.entity.player.h"
 #include "com.mojang.nbt.h"
+#include "Random.h"
 #include "LevelData.h"
 #include "LevelType.h"
 #include "LevelSettings.h"
@@ -375,7 +376,7 @@ void LevelData::setTagData(CompoundTag *tag)
 
 __int64 LevelData::getSeed() 
 {
-	return seed;
+	return random->nextInt();
 }
 
 int LevelData::getXSpawn() 

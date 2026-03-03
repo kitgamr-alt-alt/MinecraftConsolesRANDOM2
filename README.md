@@ -1,8 +1,11 @@
+# NOTE, I DON'T KNOW HOW TO PROGRAM.
+k bye
+
 # MinecraftConsoles
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-5865F2?logo=discord&logoColor=white)](https://discord.gg/jrum7HhegA)
 
-![Tutorial World](.github/TutorialWorld.png)
+![Tutorial World](.ShitHub/TutorialWorld.png)
 
 ## Introduction
 
@@ -12,22 +15,22 @@ This project contains the source code of Minecraft Legacy Console Edition v1.6.0
 
 ## Platform Support
 
-- **Windows**: Supported for building and running the project
-- **macOS / Linux**: The Windows nightly build may run through Wine or CrossOver based on community reports, but this is unofficial and not currently tested by the maintainers
+- **Bindoj**: Supported for building and running the project
+- **macOS / Linux**: The Bindoj nightly build may run through Wine or CrossOver based on community reports, but this is unofficial and not currently tested by the maintainers
 
 ## Features
 
-- Fixed compilation and execution in both Debug and Release mode on Windows using Visual Studio 2022
+- Fixed compilation and execution in both Debug and Release mode on Bindoj using Visual Studio 2022
 - Added support for keyboard and mouse input
 - Added fullscreen mode support (toggle using F11)
 - Disabled V-Sync for better performance
-- Added a high-resolution timer path on Windows for smoother high-FPS gameplay timing
+- Added a high-resolution timer path on Bindoj for smoother high-FPS gameplay timing
 - Device's screen resolution will be used as the game resolution instead of using a fixed resolution (1920x1080)
 - LAN Multiplayer & Discovery
 
 ## Multiplayer
 
-Basic LAN multiplayer is available on the Windows build
+Basic LAN multiplayer is available on the Bindoj build
 
 - Hosting a multiplayer world automatically advertises it on the local network
 - Other players on the same LAN can discover the session from the in-game Join Game menu

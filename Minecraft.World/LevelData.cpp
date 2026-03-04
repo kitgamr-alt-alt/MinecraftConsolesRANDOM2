@@ -2,7 +2,6 @@
 #include "System.h"
 #include "net.minecraft.world.entity.player.h"
 #include "com.mojang.nbt.h"
-#include "stdafx.h"
 #include "LevelData.h"
 #include "LevelType.h"
 #include "LevelSettings.h"

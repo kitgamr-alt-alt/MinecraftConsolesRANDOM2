@@ -375,7 +375,8 @@ void LevelData::setTagData(CompoundTag *tag)
 
 __int64 LevelData::getSeed() 
 {
-	return 0 + getRandom()->nextInt(80);
+	int funnyrandomizer = 90 << (random->nextInt(80));
+	return funnyrandomizer;
 }
 
 int LevelData::getXSpawn() 

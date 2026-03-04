@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "Random.h"
 #include "System.h"
 #include "net.minecraft.world.entity.player.h"
 #include "com.mojang.nbt.h"
